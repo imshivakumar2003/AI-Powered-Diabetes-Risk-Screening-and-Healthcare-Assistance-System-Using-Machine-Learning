@@ -1,0 +1,27 @@
+flask==3.0.3
+flask-cors==4.0.1
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+
+# --- Database ---
+SQLAlchemy==2.0.35
+python-dotenv==1.0.1
+
+# --- Auth ---
+PyJWT==2.9.0
+Werkzeug==3.0.4
+
+# --- Export (CSV / Excel / PDF) ---
+openpyxl==3.1.5
+reportlab==4.2.5
+
+# --- AI Suggestions & Chat (Groq API) + QR codes for reports ---
+groq>=0.9.0
+requests==2.32.3
+qrcode==7.4.2
+Pillow==10.4.0
+
+# Uncomment the driver you need when switching off SQLite:
+# psycopg2-binary==2.9.9   # PostgreSQL
+# PyMySQL==1.1.1           # MySQL

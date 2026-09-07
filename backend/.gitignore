@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+app.db
+app.db.restoring
+venv/
+backups/*.db
+backups/*.sql
+!backups/.gitkeep

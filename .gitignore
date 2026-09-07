@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+venv/
+.venv/
+
+# Environment variables & secrets
+.env
+*.env
+backend/.env
+frontend/.env
+
+# Build & Output
+dist/
+frontend/dist/
+build/
+*.egg-info/
+
+# Python cache & SQLite DB
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+backend/app.db
+backend/app.db.restoring
+backend/backups/*.db
+backend/backups/*.sql
+!backend/backups/.gitkeep
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
